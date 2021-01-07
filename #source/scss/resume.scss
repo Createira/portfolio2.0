@@ -1,5 +1,5 @@
 // Resume Page 2
-.resume {
+.resume__inner {
    padding: 15px;
    .resume__title {
       font-size: 3rem;
@@ -9,3 +9,34 @@
    }
 }
 
+.skills {
+   padding: 15px;
+   display: flex;
+   justify-content: space-around;
+   border-bottom: 3px solid rgba(255, 255, 255, 0.445);
+   .skills__title {
+      font-size: 2rem;
+   }
+   li i {
+      margin-right: 7px;
+      font-size: 1.2rem;
+   }
+}
+
+.experience {
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   .work {
+      width: 50%;
+      .work__title {
+         font-size: 2rem;
+      }
+   }
+   .education {
+      width: 50%;
+      .education__title {
+         font-size: 2rem;
+      }
+   }
+}

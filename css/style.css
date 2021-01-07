@@ -248,12 +248,44 @@ body {
   transform: rotateX(180deg);
 }
 
-.resume {
+.resume__inner {
   padding: 15px;
 }
-.resume .resume__title {
+.resume__inner .resume__title {
   font-size: 3rem;
 }
-.resume .resume__subtitle {
+.resume__inner .resume__subtitle {
+  font-size: 2rem;
+}
+
+.skills {
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.445);
+}
+.skills .skills__title {
+  font-size: 2rem;
+}
+.skills li i {
+  margin-right: 7px;
+  font-size: 1.2rem;
+}
+
+.experience {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.experience .work {
+  width: 50%;
+}
+.experience .work .work__title {
+  font-size: 2rem;
+}
+.experience .education {
+  width: 50%;
+}
+.experience .education .education__title {
   font-size: 2rem;
 }
