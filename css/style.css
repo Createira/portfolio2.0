@@ -122,6 +122,10 @@ body {
   text-transform: uppercase;
   border-radius: 10px;
 }
+.nav__inner .nav__item a {
+  color: #000;
+  text-decoration: none;
+}
 .nav__inner .nav__item:hover {
   color: #000;
   background-color: #fff;
@@ -242,4 +246,14 @@ body {
 }
 .menu .submenu li:nth-child(4) {
   transform: rotateX(180deg);
+}
+
+.resume {
+  padding: 15px;
+}
+.resume .resume__title {
+  font-size: 3rem;
+}
+.resume .resume__subtitle {
+  font-size: 2rem;
 }

@@ -55,9 +55,9 @@
    padding-left: 12px;
    font-size: 1.2rem;
    text-transform: uppercase;
-   li {
-      margin-bottom: 15px;
-   }
+    li {
+    margin-bottom: 15px;
+  }
 }
 
 .nav__inner {
@@ -74,6 +74,10 @@
       font-size: 2rem;
       text-transform: uppercase;
       border-radius: 10px;
+      a {
+        color: #000;
+        text-decoration: none;
+      }
       &:hover {
          color: #000;
          background-color: #fff;
