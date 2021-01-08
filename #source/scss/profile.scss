@@ -188,7 +188,7 @@
    }
 }
 
-/* Portrait tablets and small desktops */
+// MEDIA QUERIES
 @media (min-width: 768px) and (max-width: 991px) {
   .header {
     .header__text {
@@ -211,7 +211,6 @@
   }
 }
 
-/* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
   .container {
     .container__inner {
@@ -282,7 +281,6 @@
   }
 }
 
-/* Landscape phones and smaller */
 @media (max-width: 480px) {
   .container {
     .container__inner {

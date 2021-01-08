@@ -15,12 +15,12 @@
 }
 
 // Experience
-.block-content p {
+.experience p {
 	font-size: 1rem;
 	margin: 0 auto 1rem auto;
 }
 
-.block-content h2 {
+.experience h2 {
 	text-align: center;
 	font-size: 3rem;
 }
@@ -36,7 +36,7 @@
 	padding:2rem 0 0 0;
 }
 
-.l-contained {
+.experience__inner {
 	max-width:1000px;
 	margin-left:auto;
 	margin-right:auto;
@@ -163,4 +163,61 @@
     opacity:1;
     transform:scale(1);
    }
+}
+
+// MEDIA QUERIES
+@media (max-width: 767px) {
+  .experience h2 {
+    font-size: 2rem;
+  }
+  
+  .heading-group {
+    margin: 0 0 2em 0;
+  }
+
+  .content h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  
+  .l-block-spacing {
+    padding: 1.5rem 0 0 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills {
+    padding: 10px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.445);
+    .hard__skills {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .soft__skills {
+      width: 100%;
+    }
+    .skills__title {
+       font-size: 2rem;
+    }
+    li i {
+       font-size: 1.5rem;
+    }
+  }
+  
+  .experience h2 {
+    font-size: 2rem;
+  }
+  
+  .heading-group {
+    margin: 0 0 2em 0;
+  }
+
+  .content h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  
+  .l-block-spacing {
+    padding: 1.5rem 0 0 0;
+  }
 }
