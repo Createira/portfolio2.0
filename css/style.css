@@ -112,6 +112,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #ffffff98;
+  border-radius: 10px;
 }
 .nav__inner a {
   color: #000;
@@ -248,16 +249,6 @@ body {
 }
 .menu .submenu li:nth-child(4) {
   transform: rotateX(180deg);
-}
-
-.resume__inner {
-  padding: 15px;
-}
-.resume__inner .resume__title {
-  font-size: 2.5rem;
-}
-.resume__inner .resume__subtitle {
-  font-size: 1.5rem;
 }
 
 .skills {
@@ -421,4 +412,15 @@ body {
     opacity: 1;
     transform: scale(1);
   }
+}
+.portfolio {
+  max-width: 1000px;
+}
+.portfolio .portfolio__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio .portfolio__image {
+  width: 100px;
+  height: 70px;
 }
