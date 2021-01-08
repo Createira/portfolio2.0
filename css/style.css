@@ -45,7 +45,7 @@ body {
 }
 
 .container {
-  margin: 0 10px;
+  margin: 10px 15px;
   max-width: 1040px;
   background: linear-gradient(100deg, #ccffff96, #ffcccc93);
   transition: background-color 0.2s linear;
