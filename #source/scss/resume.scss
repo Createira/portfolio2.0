@@ -2,6 +2,7 @@
 .skills {
    padding: 15px;
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-around;
    border-bottom: 3px solid rgba(255, 255, 255, 0.445);
    .skills__title {

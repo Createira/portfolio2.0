@@ -251,9 +251,158 @@ body {
   transform: rotateX(180deg);
 }
 
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .header .header__text {
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+  .header .profile__name {
+    font-size: 1.5rem;
+  }
+  .header .profile__job {
+    font-size: 1rem;
+  }
+  .header .profile__about-me {
+    font-size: 1rem;
+  }
+
+  .information {
+    font-size: 1rem;
+  }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .container .container__inner {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .header {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-right: none;
+    border-bottom: 1px solid rgba(94, 94, 94, 0.253);
+  }
+  .header .header__photo {
+    max-width: 150px;
+    max-height: 180px;
+  }
+  .header .header__photo > img {
+    display: none;
+  }
+  .header .header__text {
+    margin-left: 10px;
+  }
+  .header .profile__name {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .header .profile__job {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .header .profile__about-me {
+    margin: 10px 0 10px 0;
+    font-size: 1rem;
+    align-items: center;
+  }
+
+  .information {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 1rem;
+  }
+  .information li {
+    margin-bottom: 10px;
+  }
+
+  .nav__inner {
+    flex-wrap: wrap;
+  }
+  .nav__inner a {
+    color: #000;
+    text-decoration: none;
+  }
+  .nav__inner .nav__item {
+    width: 100px;
+  }
+
+  .menu .share i.fa {
+    font-size: 1.5rem;
+  }
+}
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+  .container .container__inner {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .header {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-right: none;
+    border-bottom: 1px solid rgba(94, 94, 94, 0.253);
+  }
+  .header .header__photo {
+    max-width: 150px;
+    max-height: 180px;
+  }
+  .header .header__photo > img {
+    display: none;
+  }
+  .header .header__text {
+    margin-left: 10px;
+  }
+  .header .profile__name {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .header .profile__job {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .header .profile__about-me {
+    margin: 10px 0 10px 0;
+    font-size: 1rem;
+    align-items: center;
+  }
+
+  .information {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 1rem;
+  }
+  .information li {
+    margin-bottom: 10px;
+  }
+
+  .nav__inner {
+    flex-wrap: wrap;
+  }
+  .nav__inner a {
+    color: #000;
+    text-decoration: none;
+  }
+  .nav__inner .nav__item {
+    width: 170px;
+  }
+
+  .menu .share i.fa {
+    font-size: 1.5rem;
+  }
+}
 .skills {
   padding: 15px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   border-bottom: 3px solid rgba(255, 255, 255, 0.445);
 }
