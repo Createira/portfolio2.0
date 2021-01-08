@@ -486,3 +486,20 @@ body {
 .portfolio .portfolio__item:focus .title, .portfolio .portfolio__item:hover .title {
   transition-delay: 0.15s;
 }
+
+.certificate .certificate__title {
+  font-size: 3rem;
+  text-align: center;
+}
+.certificate .certificate__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.certificate .certificate__item {
+  margin-bottom: 20px;
+}
+.certificate .certificate__item img {
+  width: 300px;
+  height: 200px;
+}
