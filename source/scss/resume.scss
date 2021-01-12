@@ -1,6 +1,10 @@
-// Resume Page 2
+.resume__title {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  text-align: center;
+}
+
 .skills {
-   padding: 15px;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
@@ -22,33 +26,29 @@
 
 .experience h2 {
 	text-align: center;
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
 .heading-group {
 	margin: 0 0 3em 0;
 }
 .content h3 {
-	font-size: 2rem;
-}
-
-.l-block-spacing {
-	padding:2rem 0 0 0;
+	font-size: 1.7rem;
 }
 
 .experience__inner {
-	max-width:1000px;
-	margin-left:auto;
-	margin-right:auto;
-	padding-left:1rem;
-	padding-right:1rem;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .timeline-list {
 	padding-bottom: 1rem;
 	position: relative;
-	max-width:700px;
-	margin:0 auto;
+	max-width: 700px;
+	margin: 0 auto;
    &:before {
 	   content: "";
       border-left: 5px solid rgb(230, 230, 230);
@@ -63,13 +63,10 @@
 	}
 }
 
-//list animation 
-//scale in the circle, follwoed by the list item
-//the border must also animate in.
 .timeline-list li {
-	margin: 0 0 2em 0;
-	padding: 0 2rem 0em 3rem;
-   position: relative;
+	margin: 0 0 1.6rem 0;
+	padding: 0 2rem 0rem 3rem;
+  position: relative;
 }
 .timeline-list li:before {
 	content: "";
@@ -85,7 +82,7 @@
 }
 
 .timeline-list {
-   animation:reveal 2s 0 ease both 1;
+  animation:reveal 2s 0 ease both 1;
 }
 
 .timeline-list li .content {
@@ -101,8 +98,7 @@
 }
 
 .timeline-list li:nth-child(2):before {
-   
-   animation-delay:1.2s;
+  animation-delay:1.2s;
 }
 .timeline-list li:nth-child(2) .content {
   animation-delay:1.5s;

@@ -28,7 +28,6 @@
   display: flex;
   align-items: center;
   border-right: 1px solid rgba(94, 94, 94, 0.253);
-
   .header__photo {
   max-width: 150px;
   max-height: 180px;
@@ -69,12 +68,18 @@
   }
 }
 
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 .nav__inner {
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff98;
+  background-color: #ffffff69;
   border-radius: 10px;
   a {
     display: inline-block;
