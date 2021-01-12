@@ -88,6 +88,7 @@ body.dark .nav__item:hover {
   position: absolute;
   top: 40px;
   right: 130px;
+  z-index: 5;
 }
 
 .checkbox {
@@ -204,6 +205,7 @@ body.dark .nav__item:hover {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 2;
 }
 
 .nav__inner {
@@ -731,6 +733,12 @@ body.dark .nav__item:hover {
     padding: 1.5rem 0 0 0;
   }
 }
+.portfolio__title {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  text-align: center;
+}
+
 .portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -756,7 +764,7 @@ body.dark .nav__item:hover {
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 2;
+  z-index: 1;
   transition-property: top, opacity;
   transition-duration: 0.3s;
 }
