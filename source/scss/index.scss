@@ -221,7 +221,10 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) {s
+  .section {
+    height: 100%;
+  }
   .container {
     .container__inner {
       flex-wrap: wrap;
@@ -292,6 +295,12 @@
 }
 
 @media (max-width: 480px) {
+  .section {
+    height: 100%;
+  }
+  #section1 {
+    padding-top: 80px;
+  }
   .container {
     .container__inner {
       flex-wrap: wrap;
@@ -358,6 +367,10 @@
         font-size: 1.5rem;
       }
     }
+  }
+
+  .theme-toggle {
+    right: 100px;
   }
 }
 

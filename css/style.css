@@ -365,6 +365,10 @@ body.dark .nav__item:hover {
   }
 }
 @media (max-width: 767px) {
+  s .section {
+    height: 100%;
+  }
+
   .container .container__inner {
     flex-wrap: wrap;
     padding: 20px;
@@ -428,6 +432,14 @@ body.dark .nav__item:hover {
   }
 }
 @media (max-width: 480px) {
+  .section {
+    height: 100%;
+  }
+
+  #section1 {
+    padding-top: 80px;
+  }
+
   .container .container__inner {
     flex-wrap: wrap;
     padding: 20px;
@@ -488,6 +500,10 @@ body.dark .nav__item:hover {
 
   .menu .share i.fa {
     font-size: 1.5rem;
+  }
+
+  .theme-toggle {
+    right: 100px;
   }
 }
 .skills {
@@ -789,9 +805,6 @@ body.dark .nav__item:hover {
     width: 300px;
     height: 220px;
   }
-}
-.certificate {
-  padding: 15px;
 }
 .certificate .certificate__title {
   margin-bottom: 20px;
