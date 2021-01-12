@@ -38,12 +38,13 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   min-width: 320px;
-  min-height: 100vh;
+  /*
   display: flex;
   align-items: center;
   justify-content: center;
+  */
   font-family: "Oswald", sans-serif;
   color: #000;
   background-color: #ffffff;
@@ -131,6 +132,14 @@ body.dark .nav__item:hover {
 
 .checkbox:checked + .label .ball {
   transform: translateX(24px);
+}
+
+.section {
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
