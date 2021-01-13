@@ -131,7 +131,6 @@ body.dark .nav__item:hover {
 }
 
 .section {
-  margin: 0 auto;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -512,7 +511,7 @@ body.dark .nav__item:hover {
   }
 
   .theme-toggle {
-    right: 100px;
+    left: 30px;
   }
 }
 .resume__title {

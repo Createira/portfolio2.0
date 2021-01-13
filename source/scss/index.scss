@@ -1,5 +1,4 @@
 .section {
-  margin: 0 auto;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -120,6 +119,7 @@
   }
 }
 
+// Footer
 .footer {
   margin-top: 20px;
   padding: 10px;
@@ -133,18 +133,18 @@
   position: fixed;
   top: 30px;
   right: 30px;
-   padding: 0;
-   margin: 0;
-   list-style-type: none;
-   .share{
-     i.fa{
-       height: 50px;
-       width: 50px;
-       text-align: center;
-       line-height: 50px;
-       background-color: rgba(207, 207, 207, 0.486);
-       border-radius: 2px;
-       font-size: 2rem;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+    .share{
+      i.fa{
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        line-height: 50px;
+        background-color: rgba(207, 207, 207, 0.486);
+        border-radius: 2px;
+        font-size: 2rem;
       }
      &:hover{
        &.bottom {
@@ -377,7 +377,7 @@
   }
 
   .theme-toggle {
-    right: 100px;
+    left: 30px;
   }
 }
 
