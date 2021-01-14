@@ -48,7 +48,7 @@ body {
    &.dark .nav__inner {
       background-color: #00183698;
    }
-   &.dark .nav__item {
+   &.dark .nav__item:hover {
       &:hover {
          background-color: #011531;
          box-shadow: 0px 0px 30px 1px#00000096;
@@ -61,7 +61,7 @@ body {
 // Dark Mode button 
 .theme-toggle {
    position: absolute;
-   top: 40px;
+   top: 32px;
    right: 130px;
    z-index: 5;
 }
