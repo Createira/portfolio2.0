@@ -75,7 +75,7 @@ body.dark li {
   color: #fff;
 }
 body.dark .nav__inner {
-  background-color: #00183698;
+  background-color: #001836d5;
 }
 body.dark .nav__item:hover:hover {
   background-color: #011531;
@@ -212,7 +212,6 @@ body.dark .nav__item:hover:hover {
   justify-content: center;
   align-items: center;
   background-color: #ffffffe7;
-  border-radius: 10px;
 }
 .nav .nav__inner a {
   display: inline-block;
@@ -893,6 +892,5 @@ body.dark .nav__item:hover:hover {
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.472);
 }
 .certificate .certificate__item img {
-  width: 320px;
-  height: 220px;
+  max-width: 300px;
 }
